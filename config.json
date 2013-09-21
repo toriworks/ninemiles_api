@@ -1,7 +1,7 @@
 {
   "app": {
     "title": "TORIWORKS NineMiles Project with NodeJS",
-    "port": 8080
+    "port": 8082
   },
   "loglevel": "info",
   "logfilepath":"/logger/9miles_log.log"
