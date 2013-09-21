@@ -51,10 +51,8 @@ var FAIL = '500';
 
 
 exports.check_nickname_duplicate = function (req, res) {
-    // 파라미터 얻기
-
-
-};
+    console.log('#NINE:check_nickname called...' + req.params.nick_name);
+}
 
 
 // 이메일 중복여부를 체크한다.
