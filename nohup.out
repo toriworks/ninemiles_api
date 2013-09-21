@@ -1,0 +1,87 @@
+Express server listening on port 8000
+Express server listening on port 8000
+Express server listening on port 8000
+Express server listening on port 8000
+31 Jul 22:36:23 - [33m[nodemon] v0.7.8[0m
+31 Jul 22:36:23 - [33m[nodemon] to restart at any time, enter `rs`[0m
+31 Jul 22:36:23 - [32m[nodemon] watching: /Users/toriworks/NineMiles_api[0m
+31 Jul 22:36:23 - [32m[nodemon] starting `node app.js`[0m
+Express server listening on port 8080
+Express server listening on port 8080
+[90mGET /account/check_email/toriworks%40gmail.com [33m404 [90m8ms[0m
+[90mGET /account/check_email/%EC%9D%B4%EB%A9%94%EC%9D%BC+%ED%98%95%EC%8B%9D%EC%9D%B4+%EB%A7%9E%EC%A7%80+%EC%95%8A%EC%8A%B5%EB%8B%88%EB%8B%A4. [33m404 [90m2ms[0m
+31 Jul 22:40:35 - [nodemon] restarting due to changes...
+31 Jul 22:40:35 - [nodemon] /Users/toriworks/NineMiles_api/routes/user_service.js
+
+
+31 Jul 22:40:35 - [32m[nodemon] starting `node app.js`[0m
+Express server listening on port 8080
+Express server listening on port 8080
+####NINE:email_address called...이메일+형식이+맞지+않습니다.<<END
+####NINE:passwd called...비밀번호+형식이+맞지+않습니다.<<END
+[90mGET /account/check_email/%EC%9D%B4%EB%A9%94%EC%9D%BC+%ED%98%95%EC%8B%9D%EC%9D%B4+%EB%A7%9E%EC%A7%80+%EC%95%8A%EC%8A%B5%EB%8B%88%EB%8B%A4./%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8+%ED%98%95%EC%8B%9D%EC%9D%B4+%EB%A7%9E%EC%A7%80+%EC%95%8A%EC%8A%B5%EB%8B%88%EB%8B%A4. [32m200 [90m10ms - 55b[0m
+####NINE:email_address called...이메일+형식이+맞지+않습니다.<<END
+####NINE:passwd called...비밀번호+형식이+맞지+않습니다.<<END
+[90mGET /account/check_email/%EC%9D%B4%EB%A9%94%EC%9D%BC+%ED%98%95%EC%8B%9D%EC%9D%B4+%EB%A7%9E%EC%A7%80+%EC%95%8A%EC%8A%B5%EB%8B%88%EB%8B%A4./%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8+%ED%98%95%EC%8B%9D%EC%9D%B4+%EB%A7%9E%EC%A7%80+%EC%95%8A%EC%8A%B5%EB%8B%88%EB%8B%A4. [32m200 [90m3ms - 55b[0m
+####NINE:email_address called...이메일+형식이+맞지+않습니다.<<END
+####NINE:passwd called...비밀번호+형식이+맞지+않습니다.<<END
+[90mGET /account/check_email/%EC%9D%B4%EB%A9%94%EC%9D%BC+%ED%98%95%EC%8B%9D%EC%9D%B4+%EB%A7%9E%EC%A7%80+%EC%95%8A%EC%8A%B5%EB%8B%88%EB%8B%A4./%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8+%ED%98%95%EC%8B%9D%EC%9D%B4+%EB%A7%9E%EC%A7%80+%EC%95%8A%EC%8A%B5%EB%8B%88%EB%8B%A4. [32m200 [90m10ms - 55b[0m
+####NINE:email_address called...이메일+형식이+맞지+않습니다.<<END
+####NINE:passwd called...비밀번호+형식이+맞지+않습니다.<<END
+[90mGET /account/check_email/%EC%9D%B4%EB%A9%94%EC%9D%BC+%ED%98%95%EC%8B%9D%EC%9D%B4+%EB%A7%9E%EC%A7%80+%EC%95%8A%EC%8A%B5%EB%8B%88%EB%8B%A4./%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8+%ED%98%95%EC%8B%9D%EC%9D%B4+%EB%A7%9E%EC%A7%80+%EC%95%8A%EC%8A%B5%EB%8B%88%EB%8B%A4. [32m200 [90m2ms - 55b[0m
+####NINE:email_address called...aaa@bbb.com<<END
+####NINE:passwd called...rddghk<<END
+[90mGET /account/check_email/aaa%40bbb.com/rddghk [32m200 [90m2ms - 55b[0m
+31 Jul 22:52:27 - [nodemon] restarting due to changes...
+31 Jul 22:52:27 - [nodemon] /Users/toriworks/NineMiles_api/routes/user_service.js
+
+
+31 Jul 22:52:27 - [32m[nodemon] starting `node app.js`[0m
+Express server listening on port 8080
+Express server listening on port 8080
+####NINE:email_address called...aaa@bbb.com<<END
+####NINE:passwd called...tijffjjcjf<<END
+[90mGET /account/check_email/aaa%40bbb.com/tijffjjcjf [32m200 [90m9ms - 55b[0m
+####NINE:email_address called...aaa@bbb.com<<END
+####NINE:passwd called...rrrrrr<<END
+[90mGET /account/check_email/aaa%40bbb.com/rrrrrr [32m200 [90m3ms - 55b[0m
+####NINE:email_address called...aaa@bbb.com<<END
+####NINE:passwd called...eudjsjeb<<END
+[90mGET /account/check_email/aaa%40bbb.com/eudjsjeb [32m200 [90m1ms - 55b[0m
+####NINE:email_address called...aaa@bbb.com<<END
+####NINE:passwd called...jcjfuffuif<<END
+[90mGET /account/check_email/aaa%40bbb.com/jcjfuffuif [32m200 [90m2ms - 55b[0m
+####NINE:email_address called...aaa@bbb.com<<END
+####NINE:passwd called...jfududufjf<<END
+[90mGET /account/check_email/aaa%40bbb.com/jfududufjf [32m200 [90m1ms - 55b[0m
+####NINE:email_address called...aaa@bbb.com<<END
+####NINE:passwd called...jviffifjjf<<END
+[90mGET /account/check_email/aaa%40bbb.com/jviffifjjf [32m200 [90m2ms - 55b[0m
+####NINE:email_address called...aaa@bbb.com<<END
+####NINE:passwd called...tfdchhh<<END
+[90mGET /account/check_email/aaa%40bbb.com/tfdchhh [32m200 [90m2ms - 55b[0m
+####NINE:email_address called...aaa@bbb.com<<END
+####NINE:passwd called...eeffttg<<END
+[90mGET /account/check_email/aaa%40bbb.com/eeffttg [32m200 [90m2ms - 55b[0m
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/toriworks/NineMiles_api/node_modules/redis/index.js:163:24)
+    at Socket.<anonymous> (/Users/toriworks/NineMiles_api/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickCallback (node.js:415:13)
+Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/toriworks/NineMiles_api/node_modules/redis/index.js:163:24)
+    at Socket.<anonymous> (/Users/toriworks/NineMiles_api/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickCallback (node.js:415:13)
+31 Jul 23:07:37 - [32m[nodemon] clean exit - waiting for changes before restart[0m
+31 Jul 23:09:27 - [nodemon] exiting
