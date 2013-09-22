@@ -49,31 +49,39 @@ var SUCCESS = '200';
 var FAIL = '500';
 
 
-
+// 닉네임 중복 여부를 판단
 exports.check_nickname_duplicate = function (req, res) {
-    console.log('#NINE:check_nickname called...' + req.params.nick_name);
-}
+    console.log('####NINE:check_nickname called...' + req.params.nick_name);
+    res.send(200, 'success');
+};
 
 
-// 이메일 중복여부를 체크한다.
-exports.check_email_duplicate = function (req, res) {
+// 입력받은 이메일에 비밀번호가 정확하게 맞는지를 판단
+exports.check_email_match = function (req, res) {
     // 파라미터 얻기
     var email_address = req.params.email_address;
     var passwd = req.params.passwd;
     console.log('####NINE:email_address called...' + email_address + '<<END');
     console.log('####NINE:passwd called...' + passwd + '<<END');
-    
-    
+
+
     db.collection('account', function(err, collection) {
-    	collection.count({'email_address':email_address, 'passwd':passwd}, function(err, item) {
-    		if(!err) {
-    			res.send(200, _packet_util.make_return_packet('T', SUCCESS, '[{\"count\":' + item + '}]'));   
-    		} else {
-    			res.send(200, _packet_util.make_return_packet('F', FAIL, 'no data'));
-    		}
-    	});
+        collection.count({'email_address':email_address, 'passwd':passwd}, function(err, item) {
+            if(!err) {
+                res.send(200, _packet_util.make_return_packet('T', SUCCESS, '[{\"count\":' + item + '}]'));
+            } else {
+                res.send(200, _packet_util.make_return_packet('F', FAIL, 'no data'));
+            }
+        });
     });
-        
+};
+
+
+// 입력받은 이메일이 사용중인지를 판단
+exports.check_email_duplicate = function (req, res) {
+    // 파라미터 얻기
+    var email_address = req.params.email_address;
+    res.send(200, 'success');
 };
 
 
@@ -144,7 +152,6 @@ exports.set_account_info = function (req, res) {
                 }
             });
         });
-
 
     } // end of if
 };
